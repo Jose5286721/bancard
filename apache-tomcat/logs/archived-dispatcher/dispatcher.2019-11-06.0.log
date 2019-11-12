@@ -1,0 +1,778 @@
+2019-11-06 08:14:12 INFO  Application - Starting Application v0.0.3-SNAPSHOT on jose-Lenovo-ideapad-110-15IBR with PID 5806 (/home/jose/Descargas/tomcat/webapps/bancard/WEB-INF/classes started by root in /home/jose/Descargas/tomcat/bin)
+2019-11-06 08:14:12 INFO  Application - No active profile set, falling back to default profiles: default
+2019-11-06 08:14:12 INFO  Version - HV000001: Hibernate Validator 5.2.5.Final
+2019-11-06 08:15:21 INFO  Application - Starting Application v0.0.3-SNAPSHOT on jose-Lenovo-ideapad-110-15IBR with PID 6141 (/home/jose/Descargas/tomcat/webapps/bancard/WEB-INF/classes started by root in /home/jose/Descargas/tomcat/bin)
+2019-11-06 08:15:21 INFO  Application - No active profile set, falling back to default profiles: default
+2019-11-06 08:15:30 INFO  liquibase - Successfully acquired change log lock
+2019-11-06 08:15:31 INFO  Version - HV000001: Hibernate Validator 5.2.5.Final
+2019-11-06 08:15:49 INFO  liquibase - Reading from public.databasechangelog
+2019-11-06 08:15:50 INFO  liquibase - Successfully released change log lock
+2019-11-06 08:16:03 INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 08:16:16 INFO  Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-11-06 08:16:16 INFO  Environment - HHH000206: hibernate.properties not found
+2019-11-06 08:16:16 INFO  Environment - HHH000021: Bytecode provider name : javassist
+2019-11-06 08:16:26 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-06 08:16:32 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-11-06 08:16:35 INFO  LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-11-06 08:16:35 INFO  BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@ce385e
+2019-11-06 08:16:35 INFO  Application - Starting Application v0.0.3-SNAPSHOT on jose-Lenovo-ideapad-110-15IBR with PID 6175 (/home/jose/Descargas/tomcat/webapps/bancard/WEB-INF/classes started by root in /home/jose/Descargas/tomcat/bin)
+2019-11-06 08:16:35 INFO  Application - No active profile set, falling back to default profiles: default
+2019-11-06 08:16:38 INFO  Version - HV000001: Hibernate Validator 5.2.5.Final
+2019-11-06 08:16:40 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:16:40 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:16:40 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:16:40 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:16:49 INFO  Application - Starting Application v0.0.3-SNAPSHOT on jose-Lenovo-ideapad-110-15IBR with PID 6235 (/home/jose/Descargas/tomcat/webapps/bancard/WEB-INF/classes started by root in /home/jose/Descargas/tomcat/bin)
+2019-11-06 08:16:49 INFO  Application - No active profile set, falling back to default profiles: default
+2019-11-06 08:16:49 INFO  Version - HV000001: Hibernate Validator 5.2.5.Final
+2019-11-06 08:17:04 INFO  QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 08:17:14 INFO  liquibase - Successfully acquired change log lock
+2019-11-06 08:17:24 INFO  liquibase - Reading from public.databasechangelog
+2019-11-06 08:17:24 INFO  liquibase - Successfully released change log lock
+2019-11-06 08:17:28 INFO  MicroServiceManagerImpl - All Microservices have been loaded
+2019-11-06 08:17:29 INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 08:17:32 INFO  Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-11-06 08:17:32 INFO  Environment - HHH000206: hibernate.properties not found
+2019-11-06 08:17:32 INFO  Environment - HHH000021: Bytecode provider name : javassist
+2019-11-06 08:17:34 ERROR HipChatHelper - RuntimeException: 
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at py.com.sodep.bancard.api.microservices.HipChatHelper.<init>(HipChatHelper.java:47)
+	at py.com.sodep.bancard.web.controller.BancardMSControllerAdvice.<init>(BancardMSControllerAdvice.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-06 08:17:35 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-06 08:17:40 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-11-06 08:17:43 INFO  LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-11-06 08:17:43 INFO  BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@379996dd
+2019-11-06 08:17:48 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:17:48 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:17:48 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:17:48 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:17:50 INFO  liquibase - Successfully acquired change log lock
+2019-11-06 08:17:55 INFO  liquibase - Waiting for changelog lock....
+2019-11-06 08:18:03 INFO  liquibase - Reading from public.databasechangelog
+2019-11-06 08:18:03 INFO  liquibase - Successfully released change log lock
+2019-11-06 08:18:06 INFO  liquibase - Successfully acquired change log lock
+2019-11-06 08:18:06 INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 08:18:09 INFO  Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-11-06 08:18:09 INFO  Environment - HHH000206: hibernate.properties not found
+2019-11-06 08:18:09 INFO  Environment - HHH000021: Bytecode provider name : javassist
+2019-11-06 08:18:12 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-06 08:18:13 INFO  SwaggerPluginAdapter - Context refreshed
+2019-11-06 08:18:13 INFO  SwaggerPluginAdapter - Found custom SwaggerSpringMvcPlugins
+2019-11-06 08:18:13 INFO  SwaggerPluginAdapter - initializing plugin bean customImplementation
+2019-11-06 08:18:13 INFO  ApiListingReferenceScanner - Scanning for api listing references
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env || /env.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/actuator || /actuator.json],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/logfile || /logfile.json],methods=[GET || HEAD]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/beans || /beans.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/dump || /dump.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/mappings || /mappings.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/info || /info.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics || /metrics.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/liquibase || /liquibase.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/configprops || /configprops.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/trace || /trace.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/health || /health.json],produces=[application/json]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/uncheckederror],methods=[GET]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/invoices],methods=[GET]}
+2019-11-06 08:18:13 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/checkederror],methods=[GET]}
+2019-11-06 08:18:13 INFO  ClassOrApiAnnotationResourceGrouping - Group for method invoices was invoice-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: invoices belongs to groups: [[ResourceGroup{groupName='invoice-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='invoice-controller', position=0} with description:Invoice Controller for handler method:invoices
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reloadService was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: reloadService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reloadService
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method statusByService was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: statusByService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:statusByService
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reload was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: reload belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reload
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method update was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: update belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:update
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method delete was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: delete belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:delete
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method create was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: create belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:create
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reset was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: reset belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reset
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method status was micro-service-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: status belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:status
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method payment was payment-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: payment belongs to groups: [[ResourceGroup{groupName='payment-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='payment-controller', position=0} with description:Payment Controller for handler method:payment
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reverse was reverse-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: reverse belongs to groups: [[ResourceGroup{groupName='reverse-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='reverse-controller', position=0} with description:Reverse Controller for handler method:reverse
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method informed was transaction-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: informed belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:informed
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was transaction-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:get
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method getByService was unexpected-error-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: getByService belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:getByService
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was unexpected-error-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:get
+2019-11-06 08:18:14 INFO  ClassOrApiAnnotationResourceGrouping - Group for method clean was unexpected-error-controller
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Request mapping: clean belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:clean
+2019-11-06 08:18:14 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2019-11-06 08:18:14 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2019-11-06 08:18:14 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error],produces=[text/html]}
+2019-11-06 08:18:14 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error]}
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/unexpected-error-controller Description: unexpected-error-controller Position: 0
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/invoice-controller Description: invoice-controller Position: 0
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/reverse-controller Description: reverse-controller Position: 0
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/micro-service-controller Description: micro-service-controller Position: 0
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/transaction-controller Description: transaction-controller Position: 0
+2019-11-06 08:18:14 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/payment-controller Description: payment-controller Position: 0
+2019-11-06 08:18:18 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-11-06 08:18:18 INFO  liquibase - Reading from public.databasechangelog
+2019-11-06 08:18:18 INFO  liquibase - Successfully released change log lock
+2019-11-06 08:18:18 INFO  QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 08:18:21 INFO  LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-11-06 08:18:21 INFO  BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@48af9ed3
+2019-11-06 08:18:22 INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing - Added a resource listing with (6) api resources: 
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing -   Invoice Controller at location: /api-docs/default/invoice-controller
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing -   Micro Service Controller at location: /api-docs/default/micro-service-controller
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing -   Payment Controller at location: /api-docs/default/payment-controller
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing -   Reverse Controller at location: /api-docs/default/reverse-controller
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing -   Transaction Controller at location: /api-docs/default/transaction-controller
+2019-11-06 08:18:24 INFO  SwaggerApiResourceListing -   Unexpected Error Controller at location: /api-docs/default/unexpected-error-controller
+2019-11-06 08:18:24 INFO  Application - Started Application in 264.047 seconds (JVM running for 313.546)
+2019-11-06 08:18:25 INFO  Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-11-06 08:18:25 INFO  Environment - HHH000206: hibernate.properties not found
+2019-11-06 08:18:25 INFO  Environment - HHH000021: Bytecode provider name : javassist
+2019-11-06 08:18:26 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-06 08:18:27 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:27 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:27 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:27 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:27 INFO  TldScanner - Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+2019-11-06 08:18:27 WARN  SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [217] milliseconds.
+2019-11-06 08:18:29 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-11-06 08:18:31 INFO  LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-11-06 08:18:31 INFO  BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1860ccb8
+2019-11-06 08:18:34 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:34 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:34 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:34 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:18:55 INFO  MicroServiceManagerImpl - All Microservices have been loaded
+2019-11-06 08:19:01 INFO  QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 08:19:01 INFO  QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 08:19:03 ERROR HipChatHelper - RuntimeException: 
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at py.com.sodep.bancard.api.microservices.HipChatHelper.<init>(HipChatHelper.java:47)
+	at py.com.sodep.bancard.web.controller.BancardMSControllerAdvice.<init>(BancardMSControllerAdvice.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-06 08:19:27 INFO  MicroServiceManagerImpl - All Microservices have been loaded
+2019-11-06 08:19:27 INFO  MicroServiceManagerImpl - All Microservices have been loaded
+2019-11-06 08:19:29 INFO  SwaggerPluginAdapter - Context refreshed
+2019-11-06 08:19:29 INFO  SwaggerPluginAdapter - Found custom SwaggerSpringMvcPlugins
+2019-11-06 08:19:29 INFO  SwaggerPluginAdapter - initializing plugin bean customImplementation
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Scanning for api listing references
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/trace || /trace.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/logfile || /logfile.json],methods=[GET || HEAD]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/liquibase || /liquibase.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics || /metrics.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/info || /info.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/dump || /dump.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/health || /health.json],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env || /env.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/beans || /beans.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/actuator || /actuator.json],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/mappings || /mappings.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/configprops || /configprops.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/uncheckederror],methods=[GET]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/invoices],methods=[GET]}
+2019-11-06 08:19:29 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/checkederror],methods=[GET]}
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method invoices was invoice-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: invoices belongs to groups: [[ResourceGroup{groupName='invoice-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='invoice-controller', position=0} with description:Invoice Controller for handler method:invoices
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reloadService was micro-service-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: reloadService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reloadService
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method statusByService was micro-service-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: statusByService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:statusByService
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reload was micro-service-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: reload belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reload
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method update was micro-service-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: update belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:update
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method delete was micro-service-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: delete belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:delete
+2019-11-06 08:19:29 INFO  ClassOrApiAnnotationResourceGrouping - Group for method create was micro-service-controller
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Request mapping: create belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:29 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:create
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reset was micro-service-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: reset belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reset
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method status was micro-service-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: status belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:status
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method payment was payment-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: payment belongs to groups: [[ResourceGroup{groupName='payment-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='payment-controller', position=0} with description:Payment Controller for handler method:payment
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reverse was reverse-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: reverse belongs to groups: [[ResourceGroup{groupName='reverse-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='reverse-controller', position=0} with description:Reverse Controller for handler method:reverse
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method informed was transaction-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: informed belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:informed
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was transaction-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:get
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method getByService was unexpected-error-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: getByService belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:getByService
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was unexpected-error-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:get
+2019-11-06 08:19:30 INFO  ClassOrApiAnnotationResourceGrouping - Group for method clean was unexpected-error-controller
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Request mapping: clean belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:clean
+2019-11-06 08:19:30 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2019-11-06 08:19:30 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2019-11-06 08:19:30 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error],produces=[text/html]}
+2019-11-06 08:19:30 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error]}
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/unexpected-error-controller Description: unexpected-error-controller Position: 0
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/invoice-controller Description: invoice-controller Position: 0
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/reverse-controller Description: reverse-controller Position: 0
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/micro-service-controller Description: micro-service-controller Position: 0
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/transaction-controller Description: transaction-controller Position: 0
+2019-11-06 08:19:30 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/payment-controller Description: payment-controller Position: 0
+2019-11-06 08:19:31 ERROR HipChatHelper - RuntimeException: 
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at py.com.sodep.bancard.api.microservices.HipChatHelper.<init>(HipChatHelper.java:47)
+	at py.com.sodep.bancard.web.controller.BancardMSControllerAdvice.<init>(BancardMSControllerAdvice.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-06 08:19:31 ERROR HipChatHelper - RuntimeException: 
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at py.com.sodep.bancard.api.microservices.HipChatHelper.<init>(HipChatHelper.java:47)
+	at py.com.sodep.bancard.web.controller.BancardMSControllerAdvice.<init>(BancardMSControllerAdvice.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing - Added a resource listing with (6) api resources: 
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing -   Invoice Controller at location: /api-docs/default/invoice-controller
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing -   Micro Service Controller at location: /api-docs/default/micro-service-controller
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing -   Payment Controller at location: /api-docs/default/payment-controller
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing -   Reverse Controller at location: /api-docs/default/reverse-controller
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing -   Transaction Controller at location: /api-docs/default/transaction-controller
+2019-11-06 08:19:35 INFO  SwaggerApiResourceListing -   Unexpected Error Controller at location: /api-docs/default/unexpected-error-controller
+2019-11-06 08:19:36 INFO  Application - Started Application in 287.395 seconds (JVM running for 341.327)
+2019-11-06 08:19:37 INFO  TldScanner - Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+2019-11-06 08:19:38 WARN  SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [880] milliseconds.
+2019-11-06 08:19:48 INFO  SwaggerPluginAdapter - Context refreshed
+2019-11-06 08:19:48 INFO  SwaggerPluginAdapter - Found custom SwaggerSpringMvcPlugins
+2019-11-06 08:19:48 INFO  SwaggerPluginAdapter - initializing plugin bean customImplementation
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Scanning for api listing references
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env || /env.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/health || /health.json],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics || /metrics.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/configprops || /configprops.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/actuator || /actuator.json],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/beans || /beans.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/mappings || /mappings.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/trace || /trace.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/liquibase || /liquibase.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/info || /info.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/logfile || /logfile.json],methods=[GET || HEAD]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/dump || /dump.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/uncheckederror],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/invoices],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/checkederror],methods=[GET]}
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method invoices was invoice-controller
+2019-11-06 08:19:49 INFO  SwaggerPluginAdapter - Context refreshed
+2019-11-06 08:19:49 INFO  SwaggerPluginAdapter - Found custom SwaggerSpringMvcPlugins
+2019-11-06 08:19:49 INFO  SwaggerPluginAdapter - initializing plugin bean customImplementation
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: invoices belongs to groups: [[ResourceGroup{groupName='invoice-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='invoice-controller', position=0} with description:Invoice Controller for handler method:invoices
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reloadService was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reloadService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reloadService
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method statusByService was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: statusByService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:statusByService
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reload was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reload belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reload
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method update was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: update belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:update
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method delete was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: delete belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:delete
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method create was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Scanning for api listing references
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: create belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:create
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reset was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reset belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reset
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method status was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: status belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:status
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method payment was payment-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: payment belongs to groups: [[ResourceGroup{groupName='payment-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='payment-controller', position=0} with description:Payment Controller for handler method:payment
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env || /env.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/logfile || /logfile.json],methods=[GET || HEAD]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/liquibase || /liquibase.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/actuator || /actuator.json],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/beans || /beans.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/trace || /trace.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/configprops || /configprops.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/mappings || /mappings.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/health || /health.json],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics || /metrics.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/info || /info.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reverse was reverse-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reverse belongs to groups: [[ResourceGroup{groupName='reverse-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='reverse-controller', position=0} with description:Reverse Controller for handler method:reverse
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/dump || /dump.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method informed was transaction-controller
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/uncheckederror],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/invoices],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/checkederror],methods=[GET]}
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: informed belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:informed
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was transaction-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:get
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method getByService was unexpected-error-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: getByService belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:getByService
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was unexpected-error-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:get
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method clean was unexpected-error-controller
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method invoices was invoice-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: clean belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:clean
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error],produces=[text/html]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error]}
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/unexpected-error-controller Description: unexpected-error-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/invoice-controller Description: invoice-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/reverse-controller Description: reverse-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/micro-service-controller Description: micro-service-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/transaction-controller Description: transaction-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/payment-controller Description: payment-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: invoices belongs to groups: [[ResourceGroup{groupName='invoice-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='invoice-controller', position=0} with description:Invoice Controller for handler method:invoices
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reloadService was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reloadService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reloadService
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method statusByService was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: statusByService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:statusByService
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reload was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reload belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reload
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method update was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: update belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:update
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method delete was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: delete belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:delete
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method create was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: create belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:create
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reset was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reset belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reset
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method status was micro-service-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: status belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:status
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method payment was payment-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: payment belongs to groups: [[ResourceGroup{groupName='payment-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='payment-controller', position=0} with description:Payment Controller for handler method:payment
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reverse was reverse-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: reverse belongs to groups: [[ResourceGroup{groupName='reverse-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='reverse-controller', position=0} with description:Reverse Controller for handler method:reverse
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method informed was transaction-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: informed belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:informed
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was transaction-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:get
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method getByService was unexpected-error-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: getByService belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:getByService
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was unexpected-error-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:get
+2019-11-06 08:19:49 INFO  ClassOrApiAnnotationResourceGrouping - Group for method clean was unexpected-error-controller
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Request mapping: clean belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:clean
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error],produces=[text/html]}
+2019-11-06 08:19:49 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error]}
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/unexpected-error-controller Description: unexpected-error-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/invoice-controller Description: invoice-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/reverse-controller Description: reverse-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/micro-service-controller Description: micro-service-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/transaction-controller Description: transaction-controller Position: 0
+2019-11-06 08:19:49 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/payment-controller Description: payment-controller Position: 0
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing - Added a resource listing with (6) api resources: 
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing -   Invoice Controller at location: /api-docs/default/invoice-controller
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing -   Micro Service Controller at location: /api-docs/default/micro-service-controller
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing -   Payment Controller at location: /api-docs/default/payment-controller
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing -   Reverse Controller at location: /api-docs/default/reverse-controller
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing -   Transaction Controller at location: /api-docs/default/transaction-controller
+2019-11-06 08:19:54 INFO  SwaggerApiResourceListing -   Unexpected Error Controller at location: /api-docs/default/unexpected-error-controller
+2019-11-06 08:19:54 INFO  Application - Started Application in 201.13 seconds (JVM running for 330.282)
+2019-11-06 08:19:55 INFO  TldScanner - Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing - Added a resource listing with (6) api resources: 
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing -   Invoice Controller at location: /api-docs/default/invoice-controller
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing -   Micro Service Controller at location: /api-docs/default/micro-service-controller
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing -   Payment Controller at location: /api-docs/default/payment-controller
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing -   Reverse Controller at location: /api-docs/default/reverse-controller
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing -   Transaction Controller at location: /api-docs/default/transaction-controller
+2019-11-06 08:19:56 INFO  SwaggerApiResourceListing -   Unexpected Error Controller at location: /api-docs/default/unexpected-error-controller
+2019-11-06 08:19:56 INFO  Application - Started Application in 232.306 seconds (JVM running for 352.247)
+2019-11-06 08:19:58 INFO  TldScanner - Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+2019-11-06 08:20:07 INFO  Application - Starting Application v0.0.3-SNAPSHOT on jose-Lenovo-ideapad-110-15IBR with PID 6694 (/home/jose/Descargas/tomcat/webapps/bancard/WEB-INF/classes started by root in /home/jose/Descargas/tomcat/bin)
+2019-11-06 08:20:07 INFO  Application - No active profile set, falling back to default profiles: default
+2019-11-06 08:20:08 INFO  Version - HV000001: Hibernate Validator 5.2.5.Final
+2019-11-06 08:20:33 INFO  liquibase - Successfully acquired change log lock
+2019-11-06 08:20:36 INFO  liquibase - Reading from public.databasechangelog
+2019-11-06 08:20:37 INFO  liquibase - Successfully released change log lock
+2019-11-06 08:20:38 INFO  LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-06 08:20:39 INFO  Version - HHH000412: Hibernate Core {5.0.12.Final}
+2019-11-06 08:20:39 INFO  Environment - HHH000206: hibernate.properties not found
+2019-11-06 08:20:39 INFO  Environment - HHH000021: Bytecode provider name : javassist
+2019-11-06 08:20:40 INFO  Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-11-06 08:20:42 INFO  Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2019-11-06 08:20:42 INFO  LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2019-11-06 08:20:42 INFO  BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@10aebf77
+2019-11-06 08:20:44 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:20:44 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:20:44 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:20:44 WARN  deprecation - HHH90000014: Found use of deprecated [org.hibernate.id.SequenceHiLoGenerator] sequence-based id generator; use org.hibernate.id.enhanced.SequenceStyleGenerator instead.  See Hibernate Domain Model Mapping Guide for details.
+2019-11-06 08:20:48 INFO  QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-06 08:20:53 INFO  MicroServiceManagerImpl - All Microservices have been loaded
+2019-11-06 08:20:54 ERROR HipChatHelper - RuntimeException: 
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at py.com.sodep.bancard.api.microservices.HipChatHelper.<init>(HipChatHelper.java:47)
+	at py.com.sodep.bancard.web.controller.BancardMSControllerAdvice.<init>(BancardMSControllerAdvice.java:40)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:142)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1147)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:151)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:131)
+	at org.springframework.boot.web.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:86)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:169)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5154)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:743)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:719)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:970)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-06 08:20:59 INFO  SwaggerPluginAdapter - Context refreshed
+2019-11-06 08:20:59 INFO  SwaggerPluginAdapter - Found custom SwaggerSpringMvcPlugins
+2019-11-06 08:20:59 INFO  SwaggerPluginAdapter - initializing plugin bean customImplementation
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Scanning for api listing references
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/metrics || /metrics.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/actuator || /actuator.json],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/beans || /beans.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/health || /health.json],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/dump || /dump.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/info || /info.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/liquibase || /liquibase.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/configprops || /configprops.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/trace || /trace.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/logfile || /logfile.json],methods=[GET || HEAD]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env/{name:.*}],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/env || /env.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/mappings || /mappings.json],methods=[GET],produces=[application/json]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/uncheckederror],methods=[GET]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/invoices],methods=[GET]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/test/checkederror],methods=[GET]}
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method invoices was invoice-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: invoices belongs to groups: [[ResourceGroup{groupName='invoice-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='invoice-controller', position=0} with description:Invoice Controller for handler method:invoices
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reloadService was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: reloadService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reloadService
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method statusByService was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: statusByService belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:statusByService
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reload was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: reload belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reload
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method update was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: update belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:update
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method delete was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: delete belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:delete
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method create was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: create belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:create
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reset was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: reset belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:reset
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method status was micro-service-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: status belongs to groups: [[ResourceGroup{groupName='micro-service-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='micro-service-controller', position=0} with description:Micro Service Controller for handler method:status
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method payment was payment-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: payment belongs to groups: [[ResourceGroup{groupName='payment-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='payment-controller', position=0} with description:Payment Controller for handler method:payment
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method reverse was reverse-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: reverse belongs to groups: [[ResourceGroup{groupName='reverse-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='reverse-controller', position=0} with description:Reverse Controller for handler method:reverse
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method informed was transaction-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: informed belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:informed
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was transaction-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='transaction-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='transaction-controller', position=0} with description:Transaction Controller for handler method:get
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method getByService was unexpected-error-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: getByService belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:getByService
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method get was unexpected-error-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: get belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:get
+2019-11-06 08:20:59 INFO  ClassOrApiAnnotationResourceGrouping - Group for method clean was unexpected-error-controller
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Request mapping: clean belongs to groups: [[ResourceGroup{groupName='unexpected-error-controller', position=0}]] 
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Adding resource to group:ResourceGroup{groupName='unexpected-error-controller', position=0} with description:Unexpected Error Controller for handler method:clean
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs],methods=[GET]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/api-docs/{swaggerGroup}/{apiDeclaration}],methods=[GET]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error],produces=[text/html]}
+2019-11-06 08:20:59 INFO  RequestMappingEvaluator - RequestMappingInfo did not match any include patterns: | {[/error]}
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/unexpected-error-controller Description: unexpected-error-controller Position: 0
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/invoice-controller Description: invoice-controller Position: 0
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/reverse-controller Description: reverse-controller Position: 0
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/micro-service-controller Description: micro-service-controller Position: 0
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/transaction-controller Description: transaction-controller Position: 0
+2019-11-06 08:20:59 INFO  ApiListingReferenceScanner - Created resource listing Path: /default/payment-controller Description: payment-controller Position: 0
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing - Added a resource listing with (6) api resources: 
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing -   Invoice Controller at location: /api-docs/default/invoice-controller
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing -   Micro Service Controller at location: /api-docs/default/micro-service-controller
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing -   Payment Controller at location: /api-docs/default/payment-controller
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing -   Reverse Controller at location: /api-docs/default/reverse-controller
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing -   Transaction Controller at location: /api-docs/default/transaction-controller
+2019-11-06 08:21:01 INFO  SwaggerApiResourceListing -   Unexpected Error Controller at location: /api-docs/default/unexpected-error-controller
+2019-11-06 08:21:01 INFO  Application - Started Application in 70.852 seconds (JVM running for 217.825)
+2019-11-06 08:21:01 INFO  TldScanner - Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
